@@ -1,0 +1,85 @@
+.wrapper{
+	position: relative;
+}
+img{
+	width: 600px;
+}
+.jcarousel-prev>img,
+.jcarousel-next>img{
+	width: 12px;
+}
+.right_arrow>img,
+.left_arrow>img{
+	width: 12px;
+}
+
+.jcarousel-prev>img{
+	position: absolute;
+	top: 176px;
+	left: 29px;
+}
+.jcarousel-next > img {
+	position: absolute;
+	top: 176px;
+	left: 611px;
+}
+.left_arrow>img{
+	position: absolute;
+	top: 179px;
+	left: 33px;
+}
+.right_arrow>img{
+	position: absolute;
+	top: 179px;
+	left: 618px;
+}
+form{
+	margin-left: 30px;
+}
+.clearfix::after{
+	 content: " ";
+	 clear: both;
+	 display: block;
+ }
+.container{
+	display: block;
+	width: 130px;
+	height: 20px;
+	margin: 20px 0 30px;
+}
+.div_for_checkbox{
+	margin: 0 0;
+	display: block;
+	background: url(../img/checkbox-sprite.png);
+	width: 17px;
+	height: 17px;
+}
+.div_for_checkbox input{
+	display: none;
+}
+.active{
+	background-position: 0px -17px;
+}
+.div_for_checkbox2{
+	margin: 10px 0px 0px 30px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	cursor: pointer;
+	background: url(../img/checkbox-sprite.png);
+}
+.div_for_checkbox2 input{
+	display: none;
+}
+.div_for_checkbox label,
+.div_for_checkbox2 label{
+	margin-left: 20px;
+}
+.label1{
+	display: block;
+	width: 130px;
+}
+.label2{
+	display: block;
+	width: 130px;
+}

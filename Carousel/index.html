@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel,select,checkbox</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/horizontal.css">
+	<link rel="stylesheet" type="text/css" media="all" href="css/jquery.selectbox.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.jcarousel.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.6.1.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="jcarousel">
+		<ul class="jcarousel-list">
+			<li><a href="http://www.peugeot.ua/showroom/new-3008-light/suv.html" target="_blank"><img src="img/carousel1.jpg" class="jcarousel-item" alt="car1"></a></li>
+			<li><a href="https://www.renault.ua/vehicles/passenger/kadjar.html" target="_blank"><img src="img/carousel2.jpg" class="jcarousel-item" alt="car2"></a></li>
+			<li><a href="http://mazda.ua/ua/showroom/cx-5/overview" target="_blank"><img src="img/carousel3.jpg" class="jcarousel-item" alt="car3"></a></li>
+			<li><a href="http://suzuki.ua/ua/car/1/vitara" target="_blank"><img src="img/carousel4.jpg" class="jcarousel-item" alt="car4"></a></li>
+			<li><a href="https://www.nissan.ua/vehicles/new-vehicles/qashqai.html" target="_blank"><img src="img/carousel5.jpg" class="jcarousel-item" alt="car5"></a></li>
+		</ul>
+	</div>
+	<a class="jcarousel-prev" href="#"><img src="img/left.png"></a>
+	<a class="jcarousel-next" href="#"><img src="img/right.png"></a>
+	<a class="left_arrow" href="#"><img src="img/left_arrow.png"></a>
+	<a class="right_arrow" href="#"><img src="img/right_arrow.png"></a>
+</div>
+<form class="clearfix">
+	<select class="jquery-selectbox">
+		<option class="jquery-selectbox-item">1.8L Petrol 4x2</option>
+		<option class="jquery-selectbox-item">1.8L Petrol 4x4</option>
+		<option class="jquery-selectbox-item">2.0L Diesel 4x2</option>
+		<option class="jquery-selectbox-item">2.0L Diesel 4x4</option>
+		<option class="jquery-selectbox-item">2.2L Diesel 4x4</option>
+	</select>
+</form>
+<div class="container">
+	<div class="div_for_checkbox">
+		<label class="label1"><input class="checkbox" type="checkbox">Checkbox css</label>
+	</div>
+</div>
+    <span class="div_for_checkbox2">
+        <label class="label2"><input class="checkbox2" type="checkbox" name="ch1" value="off">Checkbox jquery</label>
+    </span>
+<script src="js/script.js"></script>
+</body>
+</html>
